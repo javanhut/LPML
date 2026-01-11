@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LPML Document</title>
+  <style>
+    .top-of-page { }
+    .mid-page { }
+    .bottom-of-page { }
+  </style>
+</head>
+<body>
+  <div class="top-of-page">
+    <div style="background: linear-gradient(180deg, #0f0c29 0%, #302b63 50%, #24243e 100%); padding: 32px; height: 100vh; display: flex; justify-content: center; align-items: center;">
+      <div style="text-align: center;">
+        <h1 style="color: white; font-size: 48px; text-align: center;">LPML</h1>
+        <p style="color: #a0a0ff; font-size: 24px; text-align: center;">The Lazy Page Maker Language</p>
+        <p style="color: #888; font-size: 20px; text-align: center; margin: 24px;">Build beautiful web pages without touching HTML or CSS</p>
+        <div style="text-align: center; padding: 24px;">
+          <button>Get Started</button>
+          <button>View Docs</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mid-page">
+    <div style="background-color: white; padding: 32px;">
+      <h2 style="color: #302b63; font-size: 32px; text-align: center;">Why LPML?</h2>
+      <div style="padding: 24px; display: flex; justify-content: center; align-items: center;">
+        <div style="background-color: #f8f9fa; text-align: center; padding: 24px; margin: 16px; border-radius: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); width: 280px;">
+          <p style="color: #302b63; font-size: 24px;"><strong>Simple Syntax</strong></p>
+          <p style="color: #666;">Write human-readable markup. No angle brackets, no closing tag confusion.</p>
+        </div>
+        <div style="background-color: #f8f9fa; text-align: center; padding: 24px; margin: 16px; border-radius: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); width: 280px;">
+          <p style="color: #302b63; font-size: 24px;"><strong>Easy Styling</strong></p>
+          <p style="color: #666;">Use words like 'large' and 'medium' instead of memorizing pixel values.</p>
+        </div>
+        <div style="background-color: #f8f9fa; text-align: center; padding: 24px; margin: 16px; border-radius: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); width: 280px;">
+          <p style="color: #302b63; font-size: 24px;"><strong>Fast Output</strong></p>
+          <p style="color: #666;">Compiles to clean HTML instantly. Works in any browser.</p>
+        </div>
+      </div>
+    </div>
+    <div style="background-color: #302b63; padding: 32px;">
+      <h2 style="color: white; font-size: 32px; text-align: center;">See It In Action</h2>
+      <div style="padding: 24px; display: flex; justify-content: center; align-items: center;">
+        <div style="background-color: #1a1a2e; padding: 24px; margin: 8px; border-radius: 8px; width: 45%;">
+          <p style="color: #a0a0ff; font-size: 12px;"><strong>LPML Input</strong></p>
+          <pre><code class="language-text">[p-start]
+  contains = &quot;Hello World!&quot;
+  color = &quot;blue&quot;
+  text_size = &quot;large&quot;
+  format_with = [&quot;bold&quot;]
+[p-end]</code></pre>
+        </div>
+        <div style="background-color: #1a1a2e; padding: 24px; margin: 8px; border-radius: 8px; width: 45%;">
+          <p style="color: #a0a0ff; font-size: 12px;"><strong>HTML Output</strong></p>
+          <pre><code class="language-html">&lt;p style=&quot;color: blue;
+   font-size: 24px;&quot;&gt;
+  &lt;strong&gt;Hello World!&lt;/strong&gt;
+&lt;/p&gt;</code></pre>
+        </div>
+      </div>
+    </div>
+    <div style="background-color: white; padding: 32px;">
+      <h2 style="color: #302b63; font-size: 32px; text-align: center;">Quick Start</h2>
+      <div style="background-color: #f8f9fa; padding: 24px; margin: 24px; border-radius: 8px;">
+        <p style="color: #302b63; font-size: 20px;"><strong>1. Install</strong></p>
+        <pre><code class="language-bash">git clone https://github.com/yourusername/lpml
+cd lpml
+go build -o lpml .</code></pre>
+        <p style="color: #302b63; font-size: 20px; margin: 16px;"><strong>2. Create a file</strong></p>
+        <pre><code class="language-text">[mid-page-start]
+  [h-start]
+    contains = &quot;My First LPML Page&quot;
+    color = &quot;navy&quot;
+  [h-end]
+  [p-start]
+    contains = &quot;This is so easy!&quot;
+  [p-end]
+[mid-page-end]</code></pre>
+        <p style="color: #302b63; font-size: 20px; margin: 16px;"><strong>3. Compile</strong></p>
+        <pre><code class="language-bash">./lpml mypage.lpml
+# Opens mypage.html in browser</code></pre>
+      </div>
+    </div>
+    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 32px; display: flex; justify-content: center; align-items: center;">
+      <h2 style="color: white; font-size: 32px; text-align: center;">Ready to be lazy?</h2>
+      <p style="color: white; font-size: 20px; text-align: center;">Start building beautiful pages in minutes, not hours.</p>
+      <div style="text-align: center; padding: 24px;">
+        <a href="https://github.com/yourusername/lpml">View on GitHub</a>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-of-page">
+    <div style="background-color: #1a1a2e; padding: 16px;">
+      <p style="color: #666; font-size: 12px; text-align: center;">LPML - Because life's too short for HTML boilerplate</p>
+    </div>
+  </div>
+</body>
+</html>

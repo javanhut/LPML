@@ -1,0 +1,323 @@
+[top-of-page-start]
+  [divide-start]
+    background = "linear-gradient(180deg, #0f0c29 0%, #302b63 50%, #24243e 100%)"
+    padding = "huge"
+    center_content = "true"
+    height = "100vh"
+
+    [divide-start]
+      align = "center"
+
+      [h-start]
+        contains = "LPML"
+        color = "white"
+        text_size = "giant"
+        align = "center"
+      [h-end]
+
+      [p-start]
+        contains = "The Lazy Page Maker Language"
+        color = "#a0a0ff"
+        text_size = "large"
+        align = "center"
+      [p-end]
+
+      [p-start]
+        contains = "Build beautiful web pages without touching HTML or CSS"
+        color = "#888"
+        text_size = "medium"
+        align = "center"
+        margin = "large"
+      [p-end]
+
+      [divide-start]
+        padding = "large"
+        align = "center"
+
+        [btn-start]
+          contains = "Get Started"
+        [btn-end]
+
+        [btn-start]
+          contains = "View Docs"
+        [btn-end]
+      [divide-end]
+    [divide-end]
+  [divide-end]
+[top-of-page-end]
+
+[mid-page-start]
+  [divide-start]
+    background = "white"
+    padding = "huge"
+
+    [h-start]
+      contains = "Why LPML?"
+      level = "2"
+      align = "center"
+      color = "#302b63"
+      text_size = "huge"
+    [h-end]
+
+    [divide-start]
+      center_content = "true"
+      padding = "large"
+
+      [divide-start]
+        background = "#f8f9fa"
+        padding = "large"
+        margin = "medium"
+        rounded = "large"
+        shadow = "small"
+        width = "280px"
+        align = "center"
+
+        [p-start]
+          contains = "Simple Syntax"
+          format_with = ["bold"]
+          text_size = "large"
+          color = "#302b63"
+        [p-end]
+
+        [p-start]
+          contains = "Write human-readable markup. No angle brackets, no closing tag confusion."
+          color = "#666"
+        [p-end]
+      [divide-end]
+
+      [divide-start]
+        background = "#f8f9fa"
+        padding = "large"
+        margin = "medium"
+        rounded = "large"
+        shadow = "small"
+        width = "280px"
+        align = "center"
+
+        [p-start]
+          contains = "Easy Styling"
+          format_with = ["bold"]
+          text_size = "large"
+          color = "#302b63"
+        [p-end]
+
+        [p-start]
+          contains = "Use words like 'large' and 'medium' instead of memorizing pixel values."
+          color = "#666"
+        [p-end]
+      [divide-end]
+
+      [divide-start]
+        background = "#f8f9fa"
+        padding = "large"
+        margin = "medium"
+        rounded = "large"
+        shadow = "small"
+        width = "280px"
+        align = "center"
+
+        [p-start]
+          contains = "Fast Output"
+          format_with = ["bold"]
+          text_size = "large"
+          color = "#302b63"
+        [p-end]
+
+        [p-start]
+          contains = "Compiles to clean HTML instantly. Works in any browser."
+          color = "#666"
+        [p-end]
+      [divide-end]
+    [divide-end]
+  [divide-end]
+
+  [divide-start]
+    background = "#302b63"
+    padding = "huge"
+
+    [h-start]
+      contains = "See It In Action"
+      level = "2"
+      align = "center"
+      color = "white"
+      text_size = "huge"
+    [h-end]
+
+    [divide-start]
+      center_content = "true"
+      padding = "large"
+
+      [divide-start]
+        background = "#1a1a2e"
+        padding = "large"
+        rounded = "medium"
+        width = "45%"
+        margin = "small"
+
+        [p-start]
+          contains = "LPML Input"
+          color = "#a0a0ff"
+          format_with = ["bold"]
+          text_size = "small"
+        [p-end]
+
+        [code-start]
+          file_type = "text"
+          syntax = {
+[p-start]
+  contains = "Hello World!"
+  color = "blue"
+  text_size = "large"
+  format_with = ["bold"]
+[p-end]
+}
+        [code-end]
+      [divide-end]
+
+      [divide-start]
+        background = "#1a1a2e"
+        padding = "large"
+        rounded = "medium"
+        width = "45%"
+        margin = "small"
+
+        [p-start]
+          contains = "HTML Output"
+          color = "#a0a0ff"
+          format_with = ["bold"]
+          text_size = "small"
+        [p-end]
+
+        [code-start]
+          file_type = "html"
+          syntax = {
+<p style="color: blue;
+   font-size: 24px;">
+  <strong>Hello World!</strong>
+</p>
+}
+        [code-end]
+      [divide-end]
+    [divide-end]
+  [divide-end]
+
+  [divide-start]
+    background = "white"
+    padding = "huge"
+
+    [h-start]
+      contains = "Quick Start"
+      level = "2"
+      align = "center"
+      color = "#302b63"
+      text_size = "huge"
+    [h-end]
+
+    [divide-start]
+      background = "#f8f9fa"
+      padding = "large"
+      margin = "large"
+      rounded = "medium"
+
+      [p-start]
+        contains = "1. Install"
+        format_with = ["bold"]
+        color = "#302b63"
+        text_size = "medium"
+      [p-end]
+
+      [code-start]
+        file_type = "bash"
+        syntax = {
+git clone https://github.com/yourusername/lpml
+cd lpml
+go build -o lpml .
+}
+      [code-end]
+
+      [p-start]
+        contains = "2. Create a file"
+        format_with = ["bold"]
+        color = "#302b63"
+        text_size = "medium"
+        margin = "medium"
+      [p-end]
+
+      [code-start]
+        file_type = "text"
+        syntax = {
+[mid-page-start]
+  [h-start]
+    contains = "My First LPML Page"
+    color = "navy"
+  [h-end]
+  [p-start]
+    contains = "This is so easy!"
+  [p-end]
+[mid-page-end]
+}
+      [code-end]
+
+      [p-start]
+        contains = "3. Compile"
+        format_with = ["bold"]
+        color = "#302b63"
+        text_size = "medium"
+        margin = "medium"
+      [p-end]
+
+      [code-start]
+        file_type = "bash"
+        syntax = {
+./lpml mypage.lpml
+# Opens mypage.html in browser
+}
+      [code-end]
+    [divide-end]
+  [divide-end]
+
+  [divide-start]
+    background = "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+    padding = "huge"
+    center_content = "true"
+
+    [h-start]
+      contains = "Ready to be lazy?"
+      level = "2"
+      color = "white"
+      align = "center"
+      text_size = "huge"
+    [h-end]
+
+    [p-start]
+      contains = "Start building beautiful pages in minutes, not hours."
+      color = "white"
+      align = "center"
+      text_size = "medium"
+    [p-end]
+
+    [divide-start]
+      padding = "large"
+      align = "center"
+
+      [link-start]
+        contains = "View on GitHub"
+        link_url = "https://github.com/yourusername/lpml"
+      [link-end]
+    [divide-end]
+  [divide-end]
+[mid-page-end]
+
+[bottom-of-page-start]
+  [divide-start]
+    background = "#1a1a2e"
+    padding = "medium"
+
+    [p-start]
+      contains = "LPML - Because life's too short for HTML boilerplate"
+      color = "#666"
+      align = "center"
+      text_size = "small"
+    [p-end]
+  [divide-end]
+[bottom-of-page-end]

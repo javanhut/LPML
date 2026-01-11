@@ -1,0 +1,345 @@
+[top-of-page-start]
+  [divide-start]
+    background = "linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)"
+    padding = "huge"
+
+    [h-start]
+      contains = "John Developer"
+      color = "#eee"
+      align = "center"
+      text_size = "giant"
+    [h-end]
+
+    [p-start]
+      contains = "Full Stack Developer | Open Source Enthusiast"
+      color = "#888"
+      align = "center"
+      text_size = "medium"
+    [p-end]
+
+    [divide-start]
+      align = "center"
+      padding = "medium"
+
+      [link-start]
+        contains = "GitHub"
+        link_url = "https://github.com"
+      [link-end]
+
+      [link-start]
+        contains = "LinkedIn"
+        link_url = "https://linkedin.com"
+      [link-end]
+
+      [link-start]
+        contains = "Twitter"
+        link_url = "https://twitter.com"
+      [link-end]
+    [divide-end]
+  [divide-end]
+[top-of-page-end]
+
+[mid-page-start]
+  [divide-start]
+    background = "#f8f9fa"
+    padding = "huge"
+
+    [h-start]
+      contains = "About Me"
+      level = "2"
+      align = "center"
+      color = "#1a1a2e"
+      text_size = "huge"
+    [h-end]
+
+    [divide-start]
+      background = "white"
+      padding = "large"
+      margin = "medium"
+      rounded = "large"
+      shadow = "medium"
+      width = "80%"
+
+      [p-start]
+        contains = "I'm a passionate developer who loves building things that live on the internet. I specialize in creating fast, accessible, and beautiful web experiences."
+        text_size = "medium"
+        color = "#444"
+        line_spacing = "1.8"
+      [p-end]
+
+      [p-start]
+        contains = "When I'm not coding, you can find me contributing to open source projects, writing technical blog posts, or exploring new technologies."
+        text_size = "medium"
+        color = "#444"
+        line_spacing = "1.8"
+      [p-end]
+    [divide-end]
+  [divide-end]
+
+  [divide-start]
+    background = "#1a1a2e"
+    padding = "huge"
+
+    [h-start]
+      contains = "Skills"
+      level = "2"
+      align = "center"
+      color = "white"
+      text_size = "huge"
+    [h-end]
+
+    [divide-start]
+      center_content = "true"
+      padding = "large"
+
+      [divide-start]
+        background = "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+        padding = "medium"
+        margin = "small"
+        rounded = "medium"
+        shadow = "large"
+        width = "200px"
+
+        [p-start]
+          contains = "Frontend"
+          color = "white"
+          align = "center"
+          format_with = ["bold"]
+          text_size = "large"
+        [p-end]
+
+        [lst-unord]
+          items = ["React", "Vue.js", "TypeScript", "CSS/SASS"]
+        [lst-end]
+      [divide-end]
+
+      [divide-start]
+        background = "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)"
+        padding = "medium"
+        margin = "small"
+        rounded = "medium"
+        shadow = "large"
+        width = "200px"
+
+        [p-start]
+          contains = "Backend"
+          color = "white"
+          align = "center"
+          format_with = ["bold"]
+          text_size = "large"
+        [p-end]
+
+        [lst-unord]
+          items = ["Go", "Node.js", "Python", "PostgreSQL"]
+        [lst-end]
+      [divide-end]
+
+      [divide-start]
+        background = "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)"
+        padding = "medium"
+        margin = "small"
+        rounded = "medium"
+        shadow = "large"
+        width = "200px"
+
+        [p-start]
+          contains = "Tools"
+          color = "white"
+          align = "center"
+          format_with = ["bold"]
+          text_size = "large"
+        [p-end]
+
+        [lst-unord]
+          items = ["Git", "Docker", "AWS", "Linux"]
+        [lst-end]
+      [divide-end]
+    [divide-end]
+  [divide-end]
+
+  [divide-start]
+    background = "#f8f9fa"
+    padding = "huge"
+
+    [h-start]
+      contains = "Featured Projects"
+      level = "2"
+      align = "center"
+      color = "#1a1a2e"
+      text_size = "huge"
+    [h-end]
+
+    [divide-start]
+      center_content = "true"
+      padding = "medium"
+
+      [divide-start]
+        background = "white"
+        padding = "large"
+        margin = "medium"
+        rounded = "large"
+        shadow = "medium"
+        width = "300px"
+
+        [h-start]
+          contains = "LPML"
+          level = "3"
+          color = "#667eea"
+        [h-end]
+
+        [p-start]
+          contains = "A lazy markup language that compiles to HTML. Write less, do more."
+          color = "#666"
+          text_size = "normal"
+        [p-end]
+
+        [divide-start]
+          padding = "small"
+
+          [p-start]
+            contains = "Go"
+            background = "#00ADD8"
+            color = "white"
+            padding = "tiny"
+            rounded = "small"
+            text_size = "small"
+          [p-end]
+        [divide-end]
+
+        [link-start]
+          contains = "View Project"
+          link_url = "https://github.com/username/lpml"
+        [link-end]
+      [divide-end]
+
+      [divide-start]
+        background = "white"
+        padding = "large"
+        margin = "medium"
+        rounded = "large"
+        shadow = "medium"
+        width = "300px"
+
+        [h-start]
+          contains = "TaskFlow"
+          level = "3"
+          color = "#f5576c"
+        [h-end]
+
+        [p-start]
+          contains = "A minimalist task management app with real-time sync and collaboration."
+          color = "#666"
+          text_size = "normal"
+        [p-end]
+
+        [divide-start]
+          padding = "small"
+
+          [p-start]
+            contains = "React"
+            background = "#61DAFB"
+            color = "#000"
+            padding = "tiny"
+            rounded = "small"
+            text_size = "small"
+          [p-end]
+        [divide-end]
+
+        [link-start]
+          contains = "View Project"
+          link_url = "https://github.com/username/taskflow"
+        [link-end]
+      [divide-end]
+
+      [divide-start]
+        background = "white"
+        padding = "large"
+        margin = "medium"
+        rounded = "large"
+        shadow = "medium"
+        width = "300px"
+
+        [h-start]
+          contains = "CloudAPI"
+          level = "3"
+          color = "#4facfe"
+        [h-end]
+
+        [p-start]
+          contains = "RESTful API framework with automatic documentation and rate limiting."
+          color = "#666"
+          text_size = "normal"
+        [p-end]
+
+        [divide-start]
+          padding = "small"
+
+          [p-start]
+            contains = "Python"
+            background = "#3776AB"
+            color = "white"
+            padding = "tiny"
+            rounded = "small"
+            text_size = "small"
+          [p-end]
+        [divide-end]
+
+        [link-start]
+          contains = "View Project"
+          link_url = "https://github.com/username/cloudapi"
+        [link-end]
+      [divide-end]
+    [divide-end]
+  [divide-end]
+
+  [divide-start]
+    background = "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+    padding = "huge"
+
+    [h-start]
+      contains = "Let's Work Together"
+      level = "2"
+      align = "center"
+      color = "white"
+      text_size = "huge"
+    [h-end]
+
+    [p-start]
+      contains = "I'm always interested in hearing about new projects and opportunities."
+      color = "white"
+      align = "center"
+      text_size = "medium"
+    [p-end]
+
+    [divide-start]
+      align = "center"
+      padding = "large"
+
+      [link-start]
+        contains = "Get In Touch"
+        link_url = "mailto:hello@example.com"
+      [link-end]
+    [divide-end]
+  [divide-end]
+[mid-page-end]
+
+[bottom-of-page-start]
+  [divide-start]
+    background = "#1a1a2e"
+    padding = "large"
+
+    [p-start]
+      contains = "Built with LPML - The Lazy Page Maker Language"
+      color = "#666"
+      align = "center"
+      text_size = "small"
+    [p-end]
+
+    [p-start]
+      contains = "2024 John Developer. All rights reserved."
+      color = "#444"
+      align = "center"
+      text_size = "tiny"
+    [p-end]
+  [divide-end]
+[bottom-of-page-end]

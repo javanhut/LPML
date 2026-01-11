@@ -1,0 +1,16 @@
+# Binary
+lpml
+lpml.exe
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test outputs (keep examples)
+testfile.html
